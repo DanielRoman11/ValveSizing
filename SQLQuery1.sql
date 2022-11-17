@@ -1,0 +1,15 @@
+CREATE DATABASE Valvulas
+GO;
+
+USE Valvulas;
+GO;
+
+CREATE TABLE VALVULA(
+ID INT,
+FECHA_CREACION DATETIME,
+Descripcion NVARCHAR(50),
+Caudal FLOAT,
+Diametro INT,
+Area FLOAT,
+V_Salida FLOAT
+)
